@@ -1,4 +1,4 @@
-# AI Data Visualization Agent for Canva
+# AI Data Analysis Agent for Canva
 
 An AI-powered Data Analysis Agent for Canva that transforms any CSV into polished charts and actionable reports—no data science skills required. Seamlessly integrated with Canva, it automates data cleaning, advanced analytics, and visualization, making professional insights accessible to everyone.
 
