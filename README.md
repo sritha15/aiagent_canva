@@ -40,15 +40,17 @@ A Canva app that uses AI to turn your data into visual charts and insights.
      ```bash
      pip install pandas matplotlib seaborn scikit-learn numpy
      ```
-5. **Start the development server:**
+5. **Set up your Canva App for local testing:**
+   - Go to the [Canva Developer Portal](https://www.canva.com/developers/)
+   - Create a new app or open your existing app
+   - Set the Development URL to `http://localhost:8080`
+   - Copy your App ID and App Origin from the portal and paste them into your `.env` file
+
+6. **Start the development server:**
    ```bash
    npm start
    ```
    - The app will be available at `http://localhost:8080`
-6. **(Optional) Set up Canva App for local testing:**
-   - Go to Canva Developer Portal
-   - Set Development URL to `http://localhost:8080`
-   - Use your App ID and Origin in `.env`
 
 ## Features
 - Upload CSV data
