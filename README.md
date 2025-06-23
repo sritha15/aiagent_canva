@@ -18,11 +18,22 @@ A Canva app that uses AI to turn your data into visual charts and insights.
      ```bash
      cp .env.template .env
      ```
-   - Edit `.env` and fill in:
-     - `CANVA_APP_ID` (from Canva Developer Portal)
-     - `CANVA_APP_ORIGIN` (your app origin)
-     - `OPENAI_API_KEY` (your OpenAI API key)
-     - Other required fields as needed
+   - Edit `.env` and fill in the following:
+
+## Required Environment Variables
+
+| Variable              | Description                                      | Required |
+|-----------------------|--------------------------------------------------|----------|
+| `CANVA_APP_ID`        | Your Canva app ID from Developer Portal           | Yes      |
+| `CANVA_APP_ORIGIN`    | Your app's origin URL (from Developer Portal)     | Yes      |
+| `OPENAI_API_KEY`      | OpenAI API key for AI features (**secret**)       | Yes      |
+| `CANVA_BACKEND_HOST`  | Backend URL (e.g., http://localhost:3001)        | Yes      |
+| `CANVA_FRONTEND_PORT` | Frontend port (default: 8080)                    | No       |
+| `CANVA_BACKEND_PORT`  | Backend port (default: 3001)                     | No       |
+| `CANVA_HMR_ENABLED`   | Enable Hot Module Replacement (TRUE/FALSE)        | No       |
+
+> **Note:** Your `OPENAI_API_KEY` is a secret key and should never be shared or committed to version control.
+
 4. **Install Python dependencies:**
    - Make sure you have Python 3.8+ installed
    - Install required packages:
