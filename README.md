@@ -55,7 +55,4 @@ A Canva app that uses AI to turn your data into visual charts and insights.
 ## Features
 - Upload CSV data
 - Chat with AI to generate charts
-- Add charts to Canva designs
-
-## License
-MIT 
+- Add charts to Canva designs 
