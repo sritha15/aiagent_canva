@@ -1,6 +1,6 @@
 # AI Data Visualization Agent for Canva
 
-An intelligent Canva app that transforms data into visualizations using AI-powered analysis and natural language processing. Upload your data, chat with the AI, and create charts that integrate into your Canva designs.
+An intelligent Canva app that transforms data into visualizations using AI-powered analysis and natural language processing. Upload your data, chat with the AI, and create charts that integrate into your Canva designs .
 
 ## Features
 
